@@ -1,8 +1,12 @@
+const project = '/sample-project';
 module.exports={
     crud:{
-        add:`/sample-project/{{name}}/add`,
-        delete:`/sample-project/{{name}}/delete`,
-        update:`/sample-project/{{name}}/update`,
-        get:`/sample-project/{{name}}/get`,
+        add:`${project}/{{name}}/add`,
+        delete:`${project}/{{name}}/delete`,
+        update:`${project}/{{name}}/update`,
+        get:`${project}/{{name}}/get`,
+    },
+    login:{
+        login:`${project}/login`
     }
 }

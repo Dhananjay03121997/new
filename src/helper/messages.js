@@ -9,6 +9,6 @@ module.exports = {
     require:'{{name}} is required.',
     alreadyExists:'{{name}} already exists.',
     pleaseProvide:'Please provide {{name}}.',
-    // invalidParams: ''
+    invalidParams: 'Invalid parameter',
 
 }
